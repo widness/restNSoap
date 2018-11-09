@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPSI_WCF", "PrintPaySysIntegration\PPSI_WCF.csproj", "{1F928AD3-33E6-4E44-88A4-3C19A14AB3DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{B1ADAAA5-87C3-46E6-A79A-FAD9A743F6EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{A0831AF3-95F8-40AB-82DA-2D7FCEC3AD24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{2184EA21-9428-4C81-8267-023807F139CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmountForm", "AmountForm\AmountForm.csproj", "{A7F061DD-9C48-42C9-AB8E-0EB99BDDE14A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1F928AD3-33E6-4E44-88A4-3C19A14AB3DB} = {1F928AD3-33E6-4E44-88A4-3C19A14AB3DB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPSI_REST", "ppsiRest\PPSI_REST.csproj", "{A52F08D9-C042-496B-9094-0870F876CEA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F928AD3-33E6-4E44-88A4-3C19A14AB3DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F928AD3-33E6-4E44-88A4-3C19A14AB3DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F928AD3-33E6-4E44-88A4-3C19A14AB3DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F928AD3-33E6-4E44-88A4-3C19A14AB3DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1ADAAA5-87C3-46E6-A79A-FAD9A743F6EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1ADAAA5-87C3-46E6-A79A-FAD9A743F6EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1ADAAA5-87C3-46E6-A79A-FAD9A743F6EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1ADAAA5-87C3-46E6-A79A-FAD9A743F6EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0831AF3-95F8-40AB-82DA-2D7FCEC3AD24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0831AF3-95F8-40AB-82DA-2D7FCEC3AD24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0831AF3-95F8-40AB-82DA-2D7FCEC3AD24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0831AF3-95F8-40AB-82DA-2D7FCEC3AD24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2184EA21-9428-4C81-8267-023807F139CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2184EA21-9428-4C81-8267-023807F139CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2184EA21-9428-4C81-8267-023807F139CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2184EA21-9428-4C81-8267-023807F139CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7F061DD-9C48-42C9-AB8E-0EB99BDDE14A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7F061DD-9C48-42C9-AB8E-0EB99BDDE14A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7F061DD-9C48-42C9-AB8E-0EB99BDDE14A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7F061DD-9C48-42C9-AB8E-0EB99BDDE14A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A52F08D9-C042-496B-9094-0870F876CEA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A52F08D9-C042-496B-9094-0870F876CEA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A52F08D9-C042-496B-9094-0870F876CEA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A52F08D9-C042-496B-9094-0870F876CEA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39821BC8-8162-4654-8F62-0DA363BE9CD9}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="PrintPaySysIntegration.PPSI_ServiceWCF" CodeBehind="PPSI_ServiceWCF.svc.cs" %>
